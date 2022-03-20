@@ -5,7 +5,7 @@
 // @description  https://github.com/Momo707577045/m3u8-downloader 配套插件
 // @author       Momo707577045
 // @include      *
-// @exclude      http://blog.luckly-mjw.cn/tool-show/m3u8-downloader/index.html
+// @exclude      http://m3u8downloader.jacklou.tk/index.html
 // @grant        none
 // @run-at document-start
 // ==/UserScript==
@@ -47,7 +47,7 @@
           m3u8Target = url
           console.log('【m3u8】----------------------------------------')
           console.log(url)
-          console.log('http://blog.luckly-mjw.cn/tool-show/m3u8-downloader/index.html?source=' + url)
+          console.log('http://m3u8downloader.jacklou.tk/index.html?source=' + url)
         }
       }
     })
@@ -130,7 +130,7 @@
     })
 
     m3u8Jump.addEventListener('click', function() {
-      window.open('http://blog.luckly-mjw.cn/tool-show/m3u8-downloader/index.html?source=' + m3u8Target)
+      window.open('http://m3u8downloader.jacklou.tk/index.html?source=' + m3u8Target)
     })
 
     m3u8Append.addEventListener('click', function() {
@@ -142,7 +142,7 @@
         s.parentNode.insertBefore(hm, s);
       })();
       ajax({
-        url: 'https://blog.luckly-mjw.cn/tool-show/m3u8-downloader/index.html',
+        url: 'https://m3u8downloader.jacklou.tk/index.html',
         success: (fileStr) => {
           let fileList = fileStr.split(`<!--vue 前端框架--\>`);
           let dom = fileList[0];
@@ -168,11 +168,11 @@
 
           // 加载 ASE 解密
           let $ase = document.createElement('script')
-          $ase.src = 'http://blog.luckly-mjw.cn/tool-show/m3u8-downloader/aes-decryptor.js'
+          $ase.src = 'http://m3u8downloader.jacklou.tk/aes-decryptor.js'
 
           // 加载 mp4 转码
           let $mp4 = document.createElement('script')
-          $mp4.src = 'http://blog.luckly-mjw.cn/tool-show/m3u8-downloader/mux-mp4.js'
+          $mp4.src = 'http://m3u8downloader.jacklou.tk/mux-mp4.js'
 
           // 加载 vue
           let $vue = document.createElement('script')
