@@ -2,7 +2,7 @@
 
 ![界面](http://upyun.luckly-mjw.cn/Assets/m3u8-download/01.jpeg)
 ### [工具在线地址（源地址）](http://blog.luckly-mjw.cn/tool-show/m3u8-downloader/index.html)，推荐使用 chrome 浏览器。
-### [工具在线地址（推荐）（无广告）](http://m3u8downloader.gq/)，推荐使用 chrome 浏览器。
+### [工具在线地址（推荐）（无广告）](http://m3u8downloader.jacklou.tk/)，推荐使用 chrome 浏览器。
 
 ### 研发背景
 - m3u8视频格式简介
